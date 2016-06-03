@@ -10,3 +10,11 @@ A set of links and instructions that i gather while starting my first .net core 
 #### With Visual Studio  
 File -> Visual C# -> New project -> .Net Core
 ![screenshot_12](https://cloud.githubusercontent.com/assets/4844997/15785173/1cd055fc-2973-11e6-8311-4b98eb81ff00.png)
+
+### Without Visual Studio
+From the command line  create and empty directory and go in then:
+```bash
+dotnet new
+dotnet restore
+```   
+Note: That dotnet new creates a console application, for creating a web application you can check [here](https://docs.asp.net/en/1.0.0-rc2/getting-started.html) TODO: Find a way to create a class library project from the command line.
