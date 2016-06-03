@@ -17,4 +17,4 @@ From the command line  create and empty directory and go in then:
 dotnet new
 dotnet restore
 ```   
-Note: That dotnet new creates a console application, for creating a web application you can check [here](https://docs.asp.net/en/1.0.0-rc2/getting-started.html) TODO: Find a way to create a class library project from the command line.
+Note: That dotnet new creates a console application, for creating a web application you can check [here](https://docs.asp.net/en/1.0.0-rc2/getting-started.html) and to create a class library project you can check [here](http://stackoverflow.com/a/37620232/1685147)
